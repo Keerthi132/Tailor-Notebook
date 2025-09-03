@@ -1,0 +1,39 @@
+.register-container {
+  max-width: 350px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* inputs */
+input, select {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* force button centering */
+.register-container button {
+  width: 150px;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 25px;
+  background: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;   /* ✅ push button to center */
+  margin-right: auto;  /* ✅ push button to center */
+}
+
+.register-container button:hover {
+  background: #0056b3;
+}
